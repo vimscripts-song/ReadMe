@@ -15,8 +15,13 @@
 	:BundleInstall
 
 该.vim文件中有我自己阉割/更改的文件：
-包括	.vim/bundle/snipMate/snippets/c.snippets
+包括
+	.vim/bundle/snipMate/snippets/c.snippets
 	.vim/bundle/snipMate/snippets/cpp.snippets
 	.vim/bundle/code_complete/plugin/code_complete.vim    “极其重要”
 cvim过大，自己就用了cvim的一小部分没用的就删除了，用的github上的c_support.git
 	.vim/bundle/c_support/ftplugin/c.vim
+
+
+.vim目录中template目录是自己写的模板，可以将自己习惯的代码模板放在里面
+.vim目录中sourceCode目录是源文件目录，用于tags查看源代码或者函数原型，
